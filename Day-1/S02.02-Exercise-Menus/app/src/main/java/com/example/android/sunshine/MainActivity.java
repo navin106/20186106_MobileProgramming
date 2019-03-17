@@ -100,12 +100,12 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 
-    // TODO (2) Create a menu resource in res/menu/ called forecast.xml
-    // TODO (3) Add one item to the menu with an ID of action_refresh
-    // TODO (4) Set the title of the menu item to "Refresh" using strings.xml
+    //(2) Create a menu resource in res/menu/ called forecast.xml
+    // (3) Add one item to the menu with an ID of action_refresh
+    //(4) Set the title of the menu item to "Refresh" using strings.xml
 
-    // COMPLETED (5) Override onCreateOptionsMenu to inflate the menu for this Activity
-    // COMPLETED (6) Return true to display the menu
+    // (5) Override onCreateOptionsMenu to inflate the menu for this Activity
+    //(6) Return true to display the menu
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         /* Use AppCompatActivity's method getMenuInflater to get a handle on the menu inflater */
@@ -116,7 +116,7 @@ public class MainActivity extends AppCompatActivity {
         return true;
     }
 
-    // COMPLETED (7) Override onOptionsItemSelected to handle clicks on the refresh button
+    // (7) Override onOptionsItemSelected to handle clicks on the refresh button
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         int id = item.getItemId();
